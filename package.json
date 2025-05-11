@@ -1,0 +1,39 @@
+{
+  "name": "@khafagaa/strict-branch-cli",
+  "version": "1.0.0",
+  "description": "Enforces consistent Git branch naming",
+  "bin": {
+    "strict-branch": "./bin/index.js",
+    "cli": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "chmod +x ./bin/index.js",
+    "start": "node src/cli.js",
+    "reset": "node src/reset.js",
+    "test:clean": "npm run reset && npm start",
+    "build": "rm -rf dist && mkdir -p dist && npx javascript-obfuscator src --output dist --config obfuscator-config.json"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "inquirer": "^12.6.1",
+    "simple-git": "^3.27.0"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "main": "dist/cli.js",
+  "author": "Ihab Khafaga",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}
