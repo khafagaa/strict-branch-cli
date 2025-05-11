@@ -4,3 +4,4 @@ dist/  # If you want to exclude build artifacts too
 .npm
 .DS_Store
 .env
+src/cli.js
