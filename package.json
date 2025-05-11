@@ -13,7 +13,14 @@
     "test:clean": "npm run reset && npm start",
     "build": "rm -rf dist && mkdir -p dist && npx javascript-obfuscator src --output dist --config obfuscator-config.json"
   },
-  "keywords": [],
+  "keywords": [
+    "git",
+    "cli",
+    "branch",
+    "naming",
+    "workflow",
+    "tool"
+  ],
   "dependencies": {
     "@khafagaa/strict-branch-cli": "^1.0.0",
     "chalk": "^5.4.1",
@@ -26,12 +33,12 @@
     "bin"
   ],
   "main": "dist/cli.js",
-  "name": "@khafagaa/strict-branch-cli",
-  "version": "1.0.0",
+  "name": "strict-branch-cli",
+  "version": "1.0.1",
   "author": "Ihab Khafaga",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "license": "MIT",
   "engines": {
