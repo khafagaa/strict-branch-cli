@@ -15,3 +15,5 @@ node_modules/
 coverage/
 test/
 .vscode/
+
+src/cli.js

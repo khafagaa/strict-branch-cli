@@ -134,6 +134,16 @@
   resolved "https://registry.npmjs.org/@inquirer/type/-/type-3.0.6.tgz"
   integrity sha512-/mKVCtVpyBu3IDarv0G+59KC4stsD5mDsGpYh+GKs1NZT88Jh52+cuoA1AtLk2Q0r/quNl+1cSUyLRHBFeD0XA==
 
+"@khafagaa/strict-branch-cli@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@khafagaa/strict-branch-cli/1.0.0/0af8d72c17b12cb01ccbe7a5d9956f7364f72721"
+  integrity sha512-MfWdjUKYylYFGyXI5JS/vATk2x4g3R2RaGHtl1Z41HaS9wB6gINzUFt2Lgrpkr7JZVEeqHD6yhsJHmEhANFX+Q==
+  dependencies:
+    chalk "^5.4.1"
+    figlet "^1.8.1"
+    inquirer "^12.6.1"
+    simple-git "^3.27.0"
+
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npmjs.org/@kwsites/file-exists/-/file-exists-1.1.1.tgz"
