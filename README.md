@@ -156,7 +156,7 @@ Right now it ends with:
 
 ## 🤝 Contributing
 
-Found a bug or have a suggestion? [Open an issue](https://github.com/your-username/strict-branch-cli/issues) or submit a pull request!
+Found a bug or have a suggestion? [Open an issue](https://github.com/khafagaa/strict-branch-cli/issues) or submit a pull request!
 
 ---
 
