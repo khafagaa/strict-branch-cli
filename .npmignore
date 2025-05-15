@@ -1,0 +1,19 @@
+# Ignore raw source code
+src/
+
+# Ignore config files and development tools
+*.log
+*.env
+*.map
+*.ts
+*.config.js
+babel.config.js
+webpack.config.js
+
+# Ignore anything that shouldn't be published
+node_modules/
+coverage/
+test/
+.vscode/
+
+
